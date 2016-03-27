@@ -16,7 +16,7 @@ markdown: kramdown
 ### content configuration ###
 title:       "Skeg - Simple Docker development environments"
 keywords:    "skeg, docker, edit, code, programming, environment"
-description: "jl"
+description: "Create and manage development environments with ease. Leverage Docker for isolation and speed."
 source_link: "https://github.com/skegio/skeg"
 favicon:     "img/favicon.ico"
 touch_icon:  "img/apple-touch-icon.png"

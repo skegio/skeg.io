@@ -14,3 +14,5 @@ deploy:
     target: /home/54/domains/skeg.io/html/
     delete: false
     recursive: true
+    when:
+      branch: gh-pages

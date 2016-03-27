@@ -1,0 +1,16 @@
+build:
+  docs:
+    image: jekyll/jekyll:builder
+    commands:
+      - jekyll build --destination /tmp/build
+      - cp -a /tmp/build _site
+      - ls _site
+deploy:
+  rsync:
+    user: endot.org
+    host: endot.org
+    port: 22
+    source: _site/
+    target: /home/54/domains/skeg.io/html/
+    delete: false
+    recursive: true
